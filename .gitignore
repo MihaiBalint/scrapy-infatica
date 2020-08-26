@@ -1,0 +1,36 @@
+# Build & deploy artifacts
+.venv/
+pyvenv.cfg
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IPythonNotebook 
+.ipynb_checkpoints/
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows
+Thumbs.db
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.mypy_cache/
+nosetests.xml
+coverage.xml
+*,cover
+.pytest_cache
